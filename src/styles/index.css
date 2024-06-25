@@ -10,3 +10,48 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+main{
+    border:2px solid black;
+    height: 100vh;
+}
+.p-box {
+    border:1px solid black;
+    width:15px;
+    height:190px;
+    margin:0px auto;
+    background-color: black;   
+}
+.box-light {
+    border:1px solid black;
+    background-color: black;
+    border-radius: 20px;
+    width:200px;
+    margin:0px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box-light div {
+    border: 1px solid;
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin:5px;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color:  green;
+}
+.light-click {
+    box-shadow: 2px 4px 22px 19px rgba(128,128,128,0.75);
+    -webkit-box-shadow: 2px 4px 22px 19px rgba(128,128,128,0.75);
+    -moz-box-shadow: 2px 4px 22px 19px rgba(128,128,128,0.75);
+}
